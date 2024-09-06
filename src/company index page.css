@@ -29,17 +29,22 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 4px;
+    justify-content: center;
     
 }
 .learn-more-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
-  align-items: initial; 
+  }
+  .learn-more-container {
+    margin-right: auto;
   }
   
   .learn-more {
     margin-right: 10px;
-    justify-content: center;
+     
   }
   
   .apply-btn {
@@ -50,7 +55,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-    
+    display: flex;
+     
     margin-left: auto;
 
   }
@@ -59,7 +65,17 @@ body {
     background-color: #3e8e41;
     
   }
+   
+/*.last-date{
+  display: flex;
+  text-align: center;
+  justify-content:space-between;
+  align-items: center;
+  margin: auto;
+}*/
 
+
+   
 
   
   
